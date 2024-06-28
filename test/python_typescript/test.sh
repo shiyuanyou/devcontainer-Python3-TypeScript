@@ -13,7 +13,6 @@ check "npm" npm --version
 check "docker" docker --version
 check "docker-compose" docker-compose --version
 check "git" git --version
-check "gh" gh --version
 
 # Report result
 reportResults

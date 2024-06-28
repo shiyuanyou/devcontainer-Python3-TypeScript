@@ -12,17 +12,5 @@
 		},
 		"ghcr.io/prulloac/devcontainer-features/chezmoi:1": {}
 	},
-	"customizations": {
-		"vscode": {
-			"extensions": [
-				"mads-hartmann.bash-ide-vscode",
-				"dbaeumer.vscode-eslint",
-				"bierner.github-markdown-preview",
-				"GitHub.vscode-pull-request-github",
-				"GitHub.copilot",
-				"github.vscode-github-actions"
-			]
-		}
-	},
 	"postCreateCommand": "npm install -g @devcontainers/cli"
 }
